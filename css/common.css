@@ -104,5 +104,12 @@ body {
 .sec-title {
     font-weight: 700;
     font-size: 3rem;
+    font-size: clamp(3rem, 4vw, 4rem);
     line-height: 1.2;
 }
+
+/* @media screen and (min-width: 1024px) {
+    .sec-title {
+        font-size: 4rem;
+    }
+} */
